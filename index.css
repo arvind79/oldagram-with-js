@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    background-color: #EDEDED;
+}
+
+
+/***************Layout***********/
+
+header {
+    margin: 0;
+    padding: 5px 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+main {
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.container {
+    width: 375px;
+    margin: 60px auto;
+    background-color: #fff;
+}
+
+.header-container {
+    height: 67px;
+}
+
+.main-container {
+    height: 545px;
+}
+
+.header-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-head {
+    display: flex;
+    justify-content: start;
+    padding: 0 0 11px 10px; 
+}
+
+.profile-head-details {
+    padding-left: 7px;
+    color: #000;
+}
+
+.post-engagements {
+    padding: 21px 19px 0px 10px;
+}
+
+/************Images******************/
+
+.main-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+.user-post {
+    width: 375px;
+    height: 375px;
+}
+
+.icon-container {
+    width: 104px;
+    height: 23px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+}
+
+.icon-heart, .icon-comment, .icon-dm {
+    padding-right: 10px; 
+}
+
+.icon-heart {
+    width: 22.3px;
+    height: 23px; 
+}
+
+.icon-comment {
+    width: 25.3px;
+    height: 22px;
+}
+
+.icon-dm {
+    width: 22.3px;
+    height: 22px;
+    padding-right: 0;
+}
+
+
+/**************Typography*************/
+
+span {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+span,
+p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.likes-count {
+    margin-top: 10px;
+}
+
+.user-id-caption {
+    margin-top: 12px;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+
+/*************Buttons**************/
+button {
+    background: lightgrey;
+    color: darkolivegreen;
+    font-weight: 700;
+    border: none;
+    margin-left: 200px;
+}

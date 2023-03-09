@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header class="app-header">
+                <div class="header-container header-display">
+                    <img class="logo" src="images/logo.png" alt="logo of oldagram">
+                    <img class="main-avatar" src="images/user-avatar.png" alt="avatar of the user">
+                </div>
+            </header>
+
+            <main>
+                <div class="main-container">
+                    <section class="profile-head">
+                        <img id="user-avatar-el" class="user-avatar" src="images/avatar-courbet.jpg" alt="avatar of the courbet">
+                        <div class="profile-head-details">
+                            <h2 id="user-name-el">Gustave Courbet</h2>
+                            <span id="user-location-el">Ornans, France</span>
+                        </div>
+                    </section>
+
+                    <section>
+                        <img id="user-post-el" class="user-post" src="images/post-courbet.jpg" alt="picture of the courbet">
+                    </section>
+
+                    <section class="post-engagements">
+                        <section class="icon-container">
+                            <img id="heart-el" class="icon-heart" src="images/icon-heart.png" alt="heart button">
+                            <img class="icon-comment" src="images/icon-comment.png" alt="comment button">
+                            <img class="icon-dm" src="images/icon-dm.png" alt="direct message button">
+                            <button id="next-btn">Next</button>
+                        </section>
+
+                        <h3 id="user-likes-el" class="likes-count">100 likes</h3>
+
+                        <section class="user-id-caption">
+                            <h3 id="user-id-el">gus1819</h3>
+                            <p id="user-caption-el">i'm feeling a bit stressed tbh</p>
+                            
+                        </section>
+                    </section>
+                </div>
+            </main>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
